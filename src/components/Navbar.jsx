@@ -11,14 +11,14 @@ const Navbar = () => {
         <
         Logo / >
         <
-        /div> < div > <
+        /div>  <div > <
         Search placeholder = "Search a album of your choice" / >
         <
-        /div> <div className = { styles.button } > <Button text = "Give Feedback"
-        font - Poppins / >
+        /div> <div className = { styles.button } > <
+        Button text = "Give Feedback"
+        font = " Poppins" / >
         <
-        /div> <
-        /nav >
+        /div> </nav >
     );
 };
 
