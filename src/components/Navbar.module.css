@@ -7,3 +7,15 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.logo {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonContainer {
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    /* Apply Poppins font to the button */
+}
