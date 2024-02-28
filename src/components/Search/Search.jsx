@@ -8,14 +8,12 @@ const Search = ({ placeholder }) => {
         <
         input className = { styles.search }
         placeholder = { placeholder }
-        /> <
-        button className = { styles.searchButton }
+        /> <button className = { styles.searchButton }
         type = "submit" >
         <
         SearchIcon / >
         <
-        /button> <
-        /div>
+        /button> </div >
     );
 };
 
