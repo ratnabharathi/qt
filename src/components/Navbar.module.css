@@ -14,6 +14,12 @@
     align-items: center;
 }
 
+
+/* Adjusting the CSS to target the correct class name */
+
+
+/* Changed .button to .buttonContainer */
+
 .buttonContainer {
     margin-right: 20px;
     font-family: 'Poppins', sans-serif;
