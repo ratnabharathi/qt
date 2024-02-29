@@ -11,12 +11,10 @@ const Navbar = () => {
         <
         Logo / >
         <
-        /div>  <div > <
-        Search placeholder = "Search a album of your choice" / >
+        /div>  <div > <Search placeholder = "Search a album of your choice" / >
         <
-        /div> <div className = { styles.button } > <
-        Button text = "Give Feedback"
-        font = " Poppins" / >
+        /div> <div className = { styles.buttonContainer } > <Button text = "Give Feedback"
+        font = "Poppins" / >
         <
         /div> </nav >
     );
