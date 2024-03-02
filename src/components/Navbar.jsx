@@ -1,29 +1,26 @@
 import React from "react";
-import styles from "./Navbar.module.css";
-import Logo from "./Logo/Logo";
 import Button from "./Button/Button";
 import Search from "./Search/Search";
+import styles from './Navbar.module.css'
+import LogoImage from "../../assets/Logo.png"
 
-const Navbar = () => {
+
+export default function Navbar() {
     return ( <
+        >
+        <
         nav className = { styles.navbar } >
         <
-        div className = { styles.logo } >
+        div className = { styles.logoDiv } > < img src = { LogoImage }
+        alt = "logo"
+        width = { 67 }
+        /></div >
         <
-        Logo / >
+        Search search = { "Search a song of your choice" }
+        /> <
+        Button children = "Give Feedback" / >
         <
-        /div>{" "} <
-        div > { " " } <
-        Search placeholder = "Search a album of your choice" / >
-        <
-        /div>{" "} <
-        div className = { styles.buttonContainer } > { " " } <
-        Button text = "Give Feedback"
-        font = "Poppins" / >
-        <
-        /div>{" "} <
-        /nav>
-    );
-};
-
-export default Navbar;
+        /nav> <
+        />
+    )
+}
